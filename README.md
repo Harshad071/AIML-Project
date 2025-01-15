@@ -63,4 +63,40 @@ A user-friendly interface was developed using Tkinter for real-time interaction 
    ```bash
    git clone https://github.com/Harshad071/AIML-Project.git
    cd AIML-Project
+## Code and Notebooks
+
+### Feature Engineering
+The repository includes a Jupyter Notebook for **Feature Engineering**, which performs the following:
+- Handles missing values using appropriate strategies for numerical and categorical columns.
+- Encodes categorical variables using `LabelEncoder`.
+- Scales numerical features using `StandardScaler` for improved model performance.
+- Saves the cleaned and preprocessed data for further analysis.
+
+**File:** `feature_engineering.ipynb`
+
+### Model Training
+The **Model Training** notebook demonstrates:
+- Training multiple models for various prediction tasks, including classification and regression.
+- Tasks covered:
+  1. Seasonal crop yield comparison (classification).
+  2. Rainfall impact on yield prediction (regression).
+  3. Optimal fertilizer and pesticide recommendation (regression).
+  4. State-based yield prediction (regression).
+- Saving all trained models in a single `.pkl` file for easy reuse.
+
+**File:** `model_training.ipynb`
+
+> **Tip:** To replicate the results:
+> 1. Ensure the dataset file `crop_yield.csv` is placed in the correct directory.
+> 2. Run the notebooks in sequence:
+>    - Start with `feature_engineering.ipynb` to preprocess the data.
+>    - Proceed with `model_training.ipynb` to train and save the models.
+> 3. Use the saved models (`all_models.pkl`) for predictions in downstream tasks.
+
+### Visualization
+The notebooks also include:
+- Histograms, boxplots, and count plots to explore data distributions and detect outliers.
+- A correlation heatmap to analyze relationships between numerical features.
+
+These visualizations provide valuable insights into the dataset and inform feature engineering decisions.
 
