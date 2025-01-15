@@ -61,5 +61,6 @@ A user-friendly interface was developed using Tkinter for real-time interaction 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Harshad071/AIML-Project.git
+   cd AIML-Project
+
