@@ -52,6 +52,26 @@ A user-friendly interface was developed using Tkinter for real-time interaction 
 
 ---
 
+## Machine Learning Models Used
+
+1. **RandomForestClassifier**:
+   - Used for **Seasonal Crop Yield Comparison** (Classification Task).
+   - Accuracy: **51.65%**.
+
+2. **RandomForestRegressor**:
+   - Used for Regression Tasks:
+     - **Rainfall Impact on Yield Prediction**:
+       - MSE: **25924.09**, R²: **96.76%**.
+     - **Optimal Fertilizer Prediction**:
+       - MSE: **1.89e+14**, R²: **97.43%**.
+     - **State-based Yield Prediction**:
+       - MSE: **74883.98**, R²: **90.65%**.
+
+### Summary
+- The **Random Forest** algorithm was chosen for its robustness, ability to handle non-linear relationships, and support for both classification and regression tasks.
+- All trained models have been saved in a single file: **`all_models.pkl`**.
+
+
 ## Installation
 
 ### Prerequisites
