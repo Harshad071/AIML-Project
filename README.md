@@ -117,6 +117,8 @@ The **Model Training** notebook demonstrates:
 The notebooks also include:
 - Histograms, boxplots, and count plots to explore data distributions and detect outliers.
 - A correlation heatmap to analyze relationships between numerical features.
-
+  
+### all_models.pkl FIlE LINK
+-https://drive.google.com/drive/folders/1j7L7gcXek3X8us47FNZ-FYV8oZGzkSym?usp=sharing
 These visualizations provide valuable insights into the dataset and inform feature engineering decisions.
 
